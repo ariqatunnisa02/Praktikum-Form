@@ -1,0 +1,72 @@
+<!DOCTYPE html> <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Registrasi</title>
+</head>
+
+<body>
+    <form action="formulir.html" method="POST">
+        <fieldset style="background-color:mintcream;">
+            <legend>Registrasi Siswa</legend>
+            <div>
+                <label>Nama Lengkap</label>
+                <div>
+                    <input type="text" name="nama" value="" size="50" />
+                </div>
+            </div>
+            <div>
+                <label>Tempat Lahir</label>
+                <div>
+                    <input type="text" />
+                </div>
+            </div>
+            <div>
+                <label>Tanggal Lahir</label>
+                <div>
+                    <input type="date" />
+                </div>
+            </div>
+            <div>
+                <label>Jenis Kelamin</label>
+                <div>
+                    <input type="radio" name="jk" value="L" />Laki-Laki
+                    <input type="radio" name="jk" value="P" />Perempuan
+                </div>
+            </div>
+            <div>
+                <label>E-mail</label>
+                <div>
+                    <input type="email" />
+                </div>
+            </div>
+            <div>
+                <label>No Telp</label>
+                <div>
+                    <input type="number" />
+                </div>
+            </div>
+            <div>
+                <label>Agama</label>
+                <div>
+                    <select name="agama">
+                        <option value="Islam">Islam</option>
+                        <option value="Kristen">Kristen</option>
+                        <option value="Hindu">Hindu</option>
+                        <option value="Budha">Budha</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <label>Biografi</label>
+                <div>
+                    <textarea name="biografi" rows="4" cols="30"></textarea>
+                </div>
+            </div>
+        </fieldset>
+        <div>
+            <input type="Submit" name="Submit" value="Daftar" />
+        </div>
+    </form>
+
+</body>
+</html>
